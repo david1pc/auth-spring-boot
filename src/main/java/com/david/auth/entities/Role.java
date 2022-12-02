@@ -12,7 +12,7 @@ import lombok.*;
 @Entity(name = "Role")
 public class Role {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Integer codigo;
     private String nombre;
 

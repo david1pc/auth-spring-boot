@@ -16,7 +16,7 @@ import java.util.List;
 @Entity(name = "Client")
 public class Client extends Person{
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @EqualsAndHashCode.Include
     private Integer codigo;
 

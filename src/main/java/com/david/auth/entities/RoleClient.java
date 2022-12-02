@@ -13,7 +13,7 @@ import lombok.*;
 @Entity(name = "RoleClient")
 public class RoleClient {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @EqualsAndHashCode.Include
     private Integer codigo;
 

@@ -12,7 +12,8 @@ import java.util.List;
 @NoArgsConstructor
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @ToString
-@Entity
+@Table(name = "client")
+@Entity(name = "Client")
 public class Client extends Person{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

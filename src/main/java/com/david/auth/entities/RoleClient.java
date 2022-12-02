@@ -9,7 +9,8 @@ import lombok.*;
 @AllArgsConstructor
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @ToString
-@Entity
+@Table(name = "roleClient")
+@Entity(name = "RoleClient")
 public class RoleClient {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

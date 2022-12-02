@@ -2,7 +2,6 @@ package com.david.auth.services;
 
 import com.david.auth.entities.Client;
 import com.david.auth.entities.Role;
-import com.david.auth.entities.RoleClient;
 import lombok.SneakyThrows;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

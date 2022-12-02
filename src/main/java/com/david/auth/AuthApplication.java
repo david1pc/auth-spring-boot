@@ -27,6 +27,7 @@ public class AuthApplication {
             List<Role> roles = roleRepo.findAll();
             if(roles.isEmpty()) {
                 Role role = new Role("CLIENT");
+                role.setCodigo(0);
                 roleRepo.save(role);
             }
         };

@@ -21,9 +21,4 @@ public class Role {
     public Role(String nombre){
         this.nombre = nombre;
     }
-
-    public Role(Integer codigo, String nombre){
-        this.codigo = codigo;
-        this.nombre = nombre;
-    }
 }
